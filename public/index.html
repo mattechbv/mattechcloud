@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mat-Tech Cloud · Online services of Mat-Tech</title>
+  <meta name="description" content="Mat-Tech Cloud hosts the online services of Mat-Tech, specialists in vacuum brazing, brazing and soldering, with development, testing and production in the Netherlands and the UK." />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <link rel="canonical" href="https://mat-tech.cloud/" />
+  <meta name="theme-color" content="#262b2f" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="application-name" content="Mat-Tech Cloud" />
+  <meta name="apple-mobile-web-app-title" content="Mat-Tech" />
+
+  <!-- Icons: .ico at the root for Google and old browsers, SVG for modern ones, PNGs (multiples of 48 px) for search -->
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon-48x48.png" type="image/png" sizes="48x48" />
+  <link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96" />
+  <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Link previews (Open Graph, LinkedIn, Slack, Teams, WhatsApp, X) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Mat-Tech Cloud" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:url" content="https://mat-tech.cloud/" />
+  <meta property="og:title" content="Mat-Tech Cloud" />
+  <meta property="og:description" content="Online services of Mat-Tech, specialists in vacuum brazing, brazing and soldering in the Netherlands and the UK." />
+  <meta property="og:image" content="https://mat-tech.cloud/og-image.png" />
+  <meta property="og:image:secure_url" content="https://mat-tech.cloud/og-image.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Mat-Tech Cloud: the mat-tech logo and three green dots on a dark background" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mat-Tech Cloud" />
+  <meta name="twitter:description" content="Online services of Mat-Tech, specialists in vacuum brazing, brazing and soldering in the Netherlands and the UK." />
+  <meta name="twitter:image" content="https://mat-tech.cloud/og-image.png" />
+  <meta name="twitter:image:alt" content="Mat-Tech Cloud: the mat-tech logo and three green dots on a dark background" />
+
+  <!-- Structured data: site name and logo for Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://mat-tech.com/#organization",
+        "name": "Mat-Tech",
+        "legalName": "Mat-Tech B.V.",
+        "url": "https://mat-tech.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://mat-tech.cloud/logo.png",
+          "width": 1329,
+          "height": 282
+        },
+        "image": "https://mat-tech.cloud/icon-512.png",
+        "sameAs": [
+          "https://mat-tech.com/",
+          "https://www.linkedin.com/company/mat-tech-joining-technologies-limited/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://mat-tech.cloud/#website",
+        "url": "https://mat-tech.cloud/",
+        "name": "Mat-Tech Cloud",
+        "alternateName": ["Mat-Tech", "mat-tech.cloud"],
+        "inLanguage": "en",
+        "publisher": { "@id": "https://mat-tech.com/#organization" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://mat-tech.cloud/#webpage",
+        "url": "https://mat-tech.cloud/",
+        "name": "Mat-Tech Cloud",
+        "isPartOf": { "@id": "https://mat-tech.cloud/#website" },
+        "about": { "@id": "https://mat-tech.com/#organization" },
+        "primaryImageOfPage": "https://mat-tech.cloud/og-image.png"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #262b2f;
+      --bg-deep: #1d2124;
+      --surface: #2e3439;
+      --line: #3a4147;
+      --text: #f2f4f5;
+      --muted: #aeb6bc;
+      --green: #009a4d;
+      --green-bright: #2ee08a;
+      --gutter: clamp(16px, 5vw, 72px);
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100svh;
+      display: flex;
+      flex-direction: column;
+      background: var(--bg);
+      color: var(--text);
+      font: 400 17px/1.6 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow-x: hidden;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background:
+        radial-gradient(60vmax 60vmax at -10% 110%, rgba(0, 154, 77, .28), transparent 60%),
+        radial-gradient(40vmax 40vmax at 90% 10%, rgba(0, 154, 77, .12), transparent 60%);
+    }
+    a { color: inherit; }
+    a:focus-visible { outline: 2px solid var(--green-bright); outline-offset: 3px; border-radius: 4px; }
+
+    header, main, footer { width: 100%; max-width: 1200px; margin: 0 auto; padding-inline: var(--gutter); }
+    header { padding-block: 32px; }
+    header img { display: block; width: 150px; height: auto; }
+
+    main {
+      flex: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+      align-items: center;
+      gap: 48px;
+      padding-block: 48px 72px;
+    }
+    .eyebrow {
+      margin: 0 0 20px;
+      font: 500 13px/1 "JetBrains Mono", Consolas, monospace;
+      letter-spacing: .28em;
+      text-transform: uppercase;
+      color: var(--green-bright);
+    }
+    h1 {
+      margin: 0 0 24px;
+      font: 800 clamp(48px, 9vw, 112px)/.95 Archivo, "Segoe UI", sans-serif;
+      letter-spacing: -.02em;
+    }
+    h1 span { display: block; color: var(--green-bright); }
+    .lead { margin: 0 0 36px; max-width: 34em; font-size: clamp(17px, 2vw, 20px); color: var(--muted); }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 22px;
+      border-radius: 999px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background-color .2s, border-color .2s, transform .2s;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn--primary { background: var(--green); color: #fff; }
+    .btn--primary:hover { background: #00b35a; }
+    .btn--ghost { border: 1px solid var(--line); }
+    .btn--ghost:hover { border-color: var(--green-bright); }
+    .btn svg { width: 16px; height: 16px; }
+
+    .mark { width: 100%; max-width: 440px; justify-self: center; }
+    .mark circle { fill: var(--green-bright); }
+    @media (prefers-reduced-motion: no-preference) {
+      .mark circle { animation: rise 1.2s cubic-bezier(.2, .8, .2, 1) both; }
+      .mark circle:nth-child(2) { animation-delay: .12s; }
+      .mark circle:nth-child(3) { animation-delay: .24s; }
+      @keyframes rise { from { opacity: 0; transform: translateY(12px); } }
+    }
+
+    footer {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 32px;
+      padding-block: 32px 40px;
+      border-top: 1px solid var(--line);
+      font-size: 14px;
+      color: var(--muted);
+    }
+    footer h2 { margin: 0 0 8px; font: 600 14px/1.4 Inter, sans-serif; color: var(--text); }
+    footer p { margin: 0; }
+    footer a { text-decoration-color: var(--line); text-underline-offset: 3px; }
+    footer a:hover { color: var(--green-bright); text-decoration-color: currentColor; }
+
+    @media (max-width: 860px) {
+      main { grid-template-columns: 1fr; padding-block: 24px 56px; }
+      .mark { order: -1; max-width: 200px; justify-self: start; }
+      footer { grid-template-columns: 1fr; gap: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="https://mat-tech.com/" aria-label="Mat-Tech home">
+      <img src="/logo-dark.png" alt="mat-tech" width="600" height="97" />
+    </a>
+  </header>
+
+  <main>
+    <section>
+      <p class="eyebrow">mat-tech.cloud</p>
+      <h1>Mat-Tech <span>Cloud</span></h1>
+      <p class="lead">Online services of Mat-Tech, specialists in vacuum brazing, brazing and soldering. Development, testing and production in the Netherlands and the UK.</p>
+      <div class="actions">
+        <a class="btn btn--primary" href="https://mat-tech.com/">
+          Visit mat-tech.com
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+        <a class="btn btn--ghost" href="https://mat-tech.com/contact/">Contact us</a>
+      </div>
+    </section>
+
+    <svg class="mark" viewBox="0 0 44 44" role="img" aria-label="Mat-Tech mark: three green dots">
+      <circle cx="7.6" cy="27.9" r="6.2" />
+      <circle cx="21.6" cy="27.9" r="6.2" />
+      <circle cx="35.6" cy="16.9" r="7" />
+    </svg>
+  </main>
+
+  <footer>
+    <div>
+      <h2>Mat-Tech B.V.</h2>
+      <p>Ekkersrijt 4302, 5692 DH Son, The Netherlands<br /><a href="tel:+31499490133">+31 (0)499 490133</a></p>
+    </div>
+    <div>
+      <h2>Mat-Tech Joining Technologies Ltd</h2>
+      <p>Stone Business Park, Stone, Staffordshire ST15 0YJ, United Kingdom<br /><a href="tel:+441785847547">+44 (0)1785 847 547</a></p>
+    </div>
+    <div>
+      <h2>Mat-Tech</h2>
+      <p><a href="https://mat-tech.com/">mat-tech.com</a> · <a href="https://www.linkedin.com/company/mat-tech-joining-technologies-limited/">LinkedIn</a><br />© <span id="year">2026</span> Mat-Tech</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
